@@ -35,3 +35,115 @@
 
 /* NÃO ALTERE DAQUI PRA CIMA */
 /* ESCREVA SEU CÓDIGO ABAIXO */
+#layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.vermelho {
+  background-color: #666;
+  color: black;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 2.5rem;
+  width: 100%;
+  text-align: left;
+}
+
+.banana {
+  background-color: #666;
+  color: black;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 2.5rem;
+  width: 100%;
+  text-align: left;
+  margin-top: 0;
+}
+
+.square {
+  width: 40px;
+  height: 40px;
+  background-color: #b0b0b0; /* cinza claro */
+}
+
+.square.dark {
+  background-color: #222; /* preto */
+}
+.xadrez {
+  display: flex;
+  flex-wrap: wrap;
+  width: 320px;
+  height: 320px;
+}
+.grid-layout {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  background: #b0b0b0;
+  min-height: 300px;
+  width: 100%;
+}
+
+.coluna {
+  padding: 15px;
+  background: #b0b0b0;
+  height: 100%;
+}
+
+.coluna-menu button {
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+.coluna strong {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.cartoes {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.cartao {
+  width: 30%;
+  background-color: #bbb;
+  padding: 10px;
+  height: 600px;
+}
+
+.card-header {
+  background-color: #888;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.footer-item {
+  background-color: #999;
+  padding: 10px;
+  text-align: center;
+  margin: 10px;
+}
+.menu-horizontal {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px 0;
+}
+
+.menu-horizontal .item {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  box-shadow: 2px 2px 5px #0004;
+  transition: background-color 0.3s ease;
+}
+
+.menu-horizontal .item:hover {
+  background-color: #777;
+  cursor: pointer;
+}
+
+
